@@ -6,7 +6,7 @@ function Sushi( {sushi, balance, onEat} ) {
   function handleSushiClick() {
       if (balance >= sushi.price) {
         setIsEaten(true);
-        onEat( sushi.price);
+        onEat(sushi.price);
       }
   }
 
